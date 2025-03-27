@@ -21,7 +21,6 @@ document.addEventListener('DOMContentLoaded', () => {
         { code: 'KES', name: 'Kenyan Shilling', country: 'ke' }
     ];
 
-
     function populateCurrencies() {
         CURRENCIES.forEach(currency => {
             const option1 = document.createElement('option');
