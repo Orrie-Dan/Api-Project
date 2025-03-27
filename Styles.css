@@ -1,0 +1,115 @@
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --background-color: #f4f7f6;
+    --text-color: #2c3e50;
+    --card-background: black;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: black;
+    line-height: 1.6;
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.currency-converter {
+    background-color: var(--card-background);
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    padding: 2rem;
+    width: 100%;
+    max-width: 450px;
+    transition: all 0.3s ease;
+}
+.converter-title {
+    text-align: center;
+    color: white;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+    font-size: 1.75rem;
+}
+.currency-converter:hover {
+    box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+}
+.input-group {
+    margin-bottom: 1rem;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: var(--text-color);
+    font-weight: 600;
+}
+
+.input-group input,
+.input-group select {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.input-group input:focus,
+.input-group select:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.2);
+}
+
+.convert-btn {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.convert-btn:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px);
+}
+
+.conversion-result {
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+.result-value {
+    font-size: 1.5rem;
+    color: var(--secondary-color);
+    font-weight: 700;
+}
+
+.rate-info {
+    color: #7f8c8d;
+    font-size: 0.9rem;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+footer{
+
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+@media (max-width: 480px) {
+    .currency-converter {
+        margin: 1rem;
+        padding: 1.5rem;
+    }
+}
