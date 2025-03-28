@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "main": "script.js",
   "scripts": {
+    "dev": "vite",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "private": true,
@@ -14,5 +16,8 @@
   "dependencies": {
     "axios": "^1.8.4",
     "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "vite": "^6.2.3"
   }
 }
