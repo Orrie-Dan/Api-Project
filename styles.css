@@ -17,7 +17,6 @@ body {
     align-items: center;
     min-height: 100vh;
 }
-
 .currency-converter {
     background-color: var(--card-background);
     border-radius: 12px;
