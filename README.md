@@ -4,7 +4,9 @@ A robust web-based currency converter that provides real-time exchange rates and
 
 **Technology Used**
 Frontend: HTML, CSS, JavaScript
+
 Backend: Node.js with Express
+
 External APIs:
        -Exchange Rates API
           Documentation: https://www.exchangerate-api.com/docs/overview
@@ -29,7 +31,7 @@ Prerequisites:
 
    
 **Required Environment Variables**
-API_KEY:....
+API_KEY:....; 
 API_KEY_URL:`https://v6.exchangerate-api.com/v6/${API_KEY}/latest/${fromCurrency}`;
 
 **Running the Application Locally**
@@ -53,7 +55,7 @@ But with the help of one of my classmate who pointed it out I was able to rectif
 🔗:https://www.orriedan.tech/Api-Project
 
 **Demo video**
-
+🔗:https://youtu.be/zE28Vs53rcs
 **Contact & Support**
 Email:d.nkusi@alusttudent.com
 
