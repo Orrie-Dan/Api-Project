@@ -48,7 +48,9 @@ While setting up my web-01 & web-02 servers I encoutered some difficulties seein
 But with the help of one of my classmate who pointed it out I was able to rectify it.
 
 **Future Improvements**
+
 1.Create mobile application
+
 2.Add cryptocurrency conversion
 
 **Website**
@@ -56,6 +58,7 @@ But with the help of one of my classmate who pointed it out I was able to rectif
 
 **Demo video**
 🔗:https://youtu.be/zE28Vs53rcs
+
 **Contact & Support**
 Email:d.nkusi@alusttudent.com
 
