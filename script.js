@@ -10,27 +10,31 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const CURRENCIES = [
         { code: 'USD', name: 'US Dollar' },
-        { code: 'EUR', name: 'Euro' },
+        { code: 'EUR', name: ' Euro' },
         { code: 'GBP', name: 'British Pound' },
-        { code: 'JPY', name: 'Japanese Yen' },
+        { code: 'JPY',  name:'Japanese Yen' },
         { code: 'CAD', name: 'Canadian Dollar' },
-        { code: 'AUD', name: 'Australian Dollar' },
+        { code: 'AUD',name: 'Australian Dollar' },
+        { code: 'RWF',  name: 'Rwandan Franc'},
         { code: 'CHF', name: 'Swiss Franc' },
-        { code: 'CNY', name: 'Chinese Yuan' },
-        { code: 'INR', name: 'Indian Rupee' },
-        { code: 'BRL', name: 'Brazilian Real' }
+        { code: 'CNY', name:'Chinese Yuan' },
+        { code: 'INR', name: 'Indian Rupee ' },
+        { code: 'BRL', name: 'Brazilian Real'  },
+        {code: 'KSH', name:'Kenyan Shillings'},
+        {code: 'KRW',name:'KRW Korean'},
+        {code:'AED',name:'United Arab Emirates Dirham'}
     ];
 
     const populateCurrencies = () => {
-        CURRENCIES.forEach(({code, name}) => {
-            [elements.fromCurrency, elements.toCurrency].forEach(select => {
-                const option = new Option(`${code} - ${name}`, code);
+        CURRENCIES.forEach(({ code, name}) => {
+            [elements.fromCurrency, elements.toCurrency ].forEach(select => {
+                const option =  new Option(`${code} - ${name}`, code);
                 select.add(option);
             });
         });
 
         elements.fromCurrency.value = 'USD';
-        elements.toCurrency.value = 'EUR';
+        elements.toCurrency.value = 'RWF';
     };
 
     const convertCurrency = async () => {
